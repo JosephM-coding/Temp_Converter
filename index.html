@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sub">
+            <label for="temp">Input</label><br>
+            <select id="temp">
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="celsius">Celsius</option>
+            </select>
+            <input type="text" id="input">
+            <button onclick="convert()">Convert</button>
+            <br>
+            <label for="result">To:</label><br>
+            <div type="text" id="result" class="answer"></div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
